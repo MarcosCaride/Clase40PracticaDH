@@ -1,0 +1,13 @@
+#accordionSidebar{
+    background-image: url(../assets/images/Fondo-Header.jpg);
+    background-attachment: fixed;
+}
+
+#SideBarLogo{
+    display: flex;
+    justify-content: center;
+}
+
+#SideBarLogo img{
+    width: 100%;
+}
