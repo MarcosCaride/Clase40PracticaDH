@@ -43,7 +43,7 @@ function SideBar(){
 
                 {/*<!-- Nav Item - Charts -->*/}
                 <li className="nav-item">
-                    <NavLink className="nav-link" to="/LastMovieInDB">
+                    <NavLink className="nav-link" to="/UsersInDB">
                         <i className="fas fa-users"></i>
                         <span> Usuarios en DB</span></NavLink>
                 </li>

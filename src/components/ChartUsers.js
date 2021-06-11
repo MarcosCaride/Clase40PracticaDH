@@ -1,5 +1,5 @@
 import React, { Component }from 'react';
-import ChartRow from './ChartRow';
+import ChartRowUsers from './ChartRowUsers';
 
 class Chart extends Component {
 	constructor(props) {
@@ -13,7 +13,7 @@ class Chart extends Component {
 // let url = "http://localhost:3030/api/products"
 
     getProducts(){
-        fetch("/api/products")
+        fetch("/api/users")
             .then(r => r.json())
                 .then(productos =>{
                     this.setState({ productsList: productos.data})
@@ -68,30 +68,28 @@ class Chart extends Component {
                             <tr>
                                 <th>N°</th>
                                 <th>Nombre</th>
-                                <th>Descripción</th>
-                                <th>Precio</th>
-                                <th>Franquicia</th>
-                                <th>Categoria</th>
-                                <th>Androide del Mes</th>
-                                <th>Heroína</th>
+                                <th>Apellido</th>
+                                <th>Email</th>
+                                <th>Domicilio</th>
+                                <th>Fecha de Nacimiento</th>
+                                <th>Telefono</th>
                             </tr>
                         </thead>
                         <tfoot>
                             <tr>
                                 <th>N°</th>
                                 <th>Nombre</th>
-                                <th>Descripción</th>
-                                <th>Precio</th>
-                                <th>Franquicia</th>
-                                <th>Categoria</th>
-                                <th>Androide del Mes</th>
-                                <th>Heroína</th>
+                                <th>Apellido</th>
+                                <th>Email</th>
+                                <th>Domicilio</th>
+                                <th>Fecha de Nacimiento</th>
+                                <th>Telefono</th>
                             </tr>
                         </tfoot>
                         <tbody>
                             {
                             this.state.productsList.map(( row , i) => {
-                                return <ChartRow { ...row} key={i}/>
+                                return <ChartRowUsers { ...row} key={i}/>
                             })
                             }
 

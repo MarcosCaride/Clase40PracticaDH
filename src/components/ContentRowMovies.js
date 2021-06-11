@@ -16,8 +16,7 @@ let moviesInDB = {
 
 let totalAwards = {
     title:'Usuarios en la Base de Datos', 
-    color:'success', 
-    cuantity: '4',
+    color:'success',
     icon:'fa-users'
 }
 
