@@ -52,7 +52,7 @@ function SideBar(){
                 <li className="nav-item">
                     <NavLink className="nav-link" to="/ContentRowMovies">
                         <i className="fas fa-tags"></i>
-                        <span> Franquicias</span></NavLink>
+                        <span> Categorias</span></NavLink>
                 </li>
 
                 {/*<!-- Divider -->*/}

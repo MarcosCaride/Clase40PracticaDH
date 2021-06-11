@@ -21,40 +21,8 @@ class Chart extends Component {
     }
 
     componentDidMount(){
-        this.getProducts();
+        return this.getProducts();
     }
-
-// let tableRowsData = [
-//     {
-//         Title: 'Marvel Black Widow Funko Pop',
-//         Length: 'Figura de colección Black Widow',
-//         Rating: '3500',
-//         Categories: ['Drama','Comedia'],
-//         Awards: 'Marvel'
-//     },
-//     {
-//         Title: 'Scarlet Witch',
-//         Length: 'Figura coleccionable de Marvel, Scarlet Witch. La cabeza de la figura tiene 9cm de alto y 7cm',
-//         Rating: 3500,
-//         Categories: ['Drama','Acción','Comedia'],
-//         Awards: 'Marvel'
-//     },
-//     {
-//         Title: 'Captain Marvel',
-//         Length: 'Figura coleccionable de Marvel, Capitana Marvel. La cabeza de la figura tiene 9cm de alto y 7cm',
-//         Rating: 3500,
-//         Categories: ['Drama','Acción','Comedia'],
-//         Awards: 'Marvel'
-//     },
-//     {
-//         Title: 'Razor Crest LEGO',
-//         Length: 'Este kit de construcción de una nave estelar de 1023 piezas, un desafiante modelo para mayores de 10 años, incluye 5 personajes LEGO Star Wars coleccionables, entre ellos el Mandaloriano y el Niño. Es fantástico para jugar a interpretar y puede combinarse con otros sets LEGO Star Wars para disfrutar de más dosis de acción todavía.',
-//         Rating: 6000,
-//         Categories: ['Drama','Acción','Comedia'],
-//         Awards: 'Star Wars'
-//     },
-    
-// ]
 
 
  render(){

@@ -8,7 +8,7 @@ function ChartRowUsers(props){
                     <td>{props.name}</td>
                     <td>{props.surname}</td>
                     <td>{props.email}</td>
-                    <td>{props.adress}</td>
+                    <td>{props.address}</td>
                     <td>{props.dateOfBirth}</td>
                     <td>{props.phoneNumber}</td>
                 </tr>

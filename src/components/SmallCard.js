@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Component } from 'react';
 
 function SmallCard(props){
     return(
